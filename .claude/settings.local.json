@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(move IMG-20251116-WA0034.jpg public/)",
+      "Bash(move IMG-20251116-WA0038.jpg public/)",
+      "Bash(move IMG-20251116-WA0040.jpg public/)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
