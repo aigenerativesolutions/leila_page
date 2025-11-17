@@ -158,7 +158,7 @@ export default function Home() {
                       Hoje, atuo como mentora em posicionamento e estruturação de negócios, unindo minha experiência em gestão de pessoas com estratégias digitais. Acredito que o autoconhecimento é a base de tudo — quando você compreende quem é verdadeiramente, consegue criar um negócio autêntico que reflete seus valores e atrai as pessoas certas.
                     </p>
                     <p className="font-semibold text-text-dark italic">
-                      "A ordem acelera os meus resultados."
+                      &quot;A ordem acelera os meus resultados.&quot;
                     </p>
                     <p className="font-semibold text-text-dark">
                       Minha missão é guiar mulheres na sua jornada de transformação, capacitando-as a assumir o comando de suas vidas e negócios através da ordem e prosperidade. Acredito que cada mulher tem o potencial de construir um império baseado em sua essência única.
