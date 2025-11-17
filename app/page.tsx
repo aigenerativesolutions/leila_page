@@ -244,7 +244,7 @@ export default function Home() {
                     Chegou a hora de aplicar seu conhecimento, criar ordem e ter a liberdade que você merece. O controle é transformado em liberdade.
                   </p>
                   <motion.a
-                    href="https://wa.me/"
+                    href="https://wa.me/5554999810605"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-accent text-text-dark font-manrope font-semibold px-8 py-4 rounded-lg hover:bg-accent/90 transition-all"

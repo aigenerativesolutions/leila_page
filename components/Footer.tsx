@@ -8,7 +8,7 @@ export default function Footer() {
 
         <div className="flex justify-center space-x-6 mb-6">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/leilapedroso_/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-accent transition-colors"
@@ -17,7 +17,7 @@ export default function Footer() {
             <Instagram className="w-6 h-6" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/leila-pedroso-31abb576/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-accent transition-colors"
