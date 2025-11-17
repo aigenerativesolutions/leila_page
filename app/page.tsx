@@ -152,13 +152,16 @@ export default function Home() {
 
                   <div className="space-y-4 font-manrope text-text-secondary leading-relaxed">
                     <p>
-                      Com 7 anos de experiência em desenvolvimento de pessoas e RH, pivotei para o digital e hoje atuo como mentora em posicionamento e estruturação de negócios.
+                      Minha trajetória profissional começou no RH, onde atuei por 7 anos desenvolvendo pessoas e liderando projetos de gestão. Em 2020, durante a pandemia, fiz uma transição para o digital e me tornei Social Media, atendendo 15 clientes e construindo uma base sólida no ambiente online.
                     </p>
                     <p>
-                      Acredito que o autoconhecimento é a base de tudo. Quando você compreende quem é verdadeiramente, consegue criar um negócio autêntico que reflete seus valores e atrai as pessoas certas.
+                      Hoje, atuo como mentora em posicionamento e estruturação de negócios, unindo minha experiência em gestão de pessoas com estratégias digitais. Acredito que o autoconhecimento é a base de tudo — quando você compreende quem é verdadeiramente, consegue criar um negócio autêntico que reflete seus valores e atrai as pessoas certas.
+                    </p>
+                    <p className="font-semibold text-text-dark italic">
+                      "A ordem acelera os meus resultados."
                     </p>
                     <p className="font-semibold text-text-dark">
-                      Minha missão é guiar mulheres na sua jornada de transformação, capacitando-as a assumir o comando de suas vidas e negócios através da ordem e prosperidade.
+                      Minha missão é guiar mulheres na sua jornada de transformação, capacitando-as a assumir o comando de suas vidas e negócios através da ordem e prosperidade. Acredito que cada mulher tem o potencial de construir um império baseado em sua essência única.
                     </p>
                   </div>
                 </div>
@@ -176,7 +179,7 @@ export default function Home() {
                   A Consultoria de Negócios
                 </h2>
                 <p className="font-manrope text-xl text-text-secondary max-w-3xl mx-auto">
-                  Focada em transformação (Arquétipo Mago) e liderança (Arquétipo Governante).
+                  Baseada em três pilares arquetípicos: transformação (Mago), liderança (Governante) e descoberta (Exploradora). Uma jornada completa para estruturar e elevar seu negócio.
                 </p>
               </div>
             </ScrollReveal>
