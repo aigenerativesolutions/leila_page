@@ -13,24 +13,24 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background shadow-md">
-      <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <nav className="container mx-auto px-4 py-2 flex items-center justify-between">
         <a href="#inicio" className="flex items-center hover:opacity-80 transition-opacity">
           <Image
             src="/logo_lei.png"
             alt="Leila Pellegrini"
-            width={150}
-            height={50}
-            className="object-contain"
+            width={100}
+            height={40}
+            className="object-contain h-10 w-auto"
             priority
           />
         </a>
 
-        <ul className="hidden md:flex items-center space-x-8">
+        <ul className="hidden md:flex items-center space-x-4 lg:space-x-6">
           {navItems.map((item) => (
             <li key={item.href}>
               <a
                 href={item.href}
-                className="font-manrope text-text-dark hover:text-accent transition-colors"
+                className="font-manrope text-sm lg:text-base text-text-dark hover:text-accent transition-colors whitespace-nowrap"
               >
                 {item.label}
               </a>
