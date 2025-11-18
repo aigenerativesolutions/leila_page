@@ -48,7 +48,9 @@ export default function Home() {
               Ajudo empreendedoras a alinhar posicionamento e experiência do cliente para faturar mais, com autenticidade e ordem.
             </motion.p>
             <motion.a
-              href="#contato"
+              href="https://form.respondi.app/o6txpLuK"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-accent text-text-dark font-manrope font-semibold px-8 py-4 rounded-lg hover:bg-accent/90 transition-all hover:scale-105"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -56,7 +58,7 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Agende sua Consultoria
+              Preencher Aplicação
             </motion.a>
           </motion.div>
         </section>
@@ -230,6 +232,94 @@ export default function Home() {
                 </div>
               </ScrollReveal>
             </div>
+          </div>
+        </section>
+
+        {/* ORDEM Program Section */}
+        <section id="ordem" className="py-20 px-4 bg-background">
+          <div className="container mx-auto max-w-6xl">
+            <ScrollReveal direction="up">
+              <div className="text-center mb-16">
+                <h2 className="font-playfair text-4xl md:text-6xl mb-6 text-text-dark font-bold">
+                  SEJA UMA ORDENADA!
+                </h2>
+                <p className="font-manrope text-xl md:text-2xl text-text-secondary max-w-4xl mx-auto mb-4 leading-relaxed">
+                  Tenha meu acompanhamento por <span className="font-bold text-accent">12 meses</span> para <span className="font-bold">POSICIONAR e ESTRUTURAR</span> sua marca no mundo sem perder a sua essência!
+                </p>
+                <p className="font-manrope text-lg md:text-xl text-text-dark max-w-4xl mx-auto leading-relaxed">
+                  Eu, Leila Pedroso, vou trabalhar pessoalmente na construção do seu posicionamento, aumentando a sua percepção de valor e fazer do seu nome reconhecido e bem pago!
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              {/* Card 1 - 12 Consultas */}
+              <ScrollReveal direction="left" delay={0}>
+                <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all border-t-4 border-accent">
+                  <h3 className="font-playfair text-2xl md:text-3xl mb-4 text-text-dark font-bold">
+                    12 Consultorias Individuais
+                  </h3>
+                  <p className="font-manrope text-text-secondary leading-relaxed">
+                    Muito além de um plano de implementação, a metodologia ORDEM é uma escolha e estilo para viver. Encontros personalizados para construir seu posicionamento único.
+                  </p>
+                </div>
+              </ScrollReveal>
+
+              {/* Card 2 - Sessões Grupais */}
+              <ScrollReveal direction="right" delay={0.1}>
+                <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all border-t-4 border-accent">
+                  <h3 className="font-playfair text-2xl md:text-3xl mb-4 text-text-dark font-bold">
+                    Sessões Mensais em Grupo
+                  </h3>
+                  <p className="font-manrope text-text-secondary leading-relaxed">
+                    Encontros em formato hotseat, em grupo que acontecem online (via Zoom) para tirar dúvidas, resolver problemas e aprender com outras empreendedoras.
+                  </p>
+                </div>
+              </ScrollReveal>
+
+              {/* Card 3 - Suporte WhatsApp */}
+              <ScrollReveal direction="left" delay={0.2}>
+                <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all border-t-4 border-accent">
+                  <h3 className="font-playfair text-2xl md:text-3xl mb-4 text-text-dark font-bold">
+                    Suporte Diário WhatsApp
+                  </h3>
+                  <p className="font-manrope text-text-secondary leading-relaxed">
+                    Acesso exclusivo ao grupo com contato direto com o time para suporte contínuo, dúvidas rápidas e acompanhamento constante da sua evolução.
+                  </p>
+                </div>
+              </ScrollReveal>
+
+              {/* Card 4 - Breakthrough Session */}
+              <ScrollReveal direction="right" delay={0.3}>
+                <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all border-t-4 border-accent">
+                  <h3 className="font-playfair text-2xl md:text-3xl mb-4 text-text-dark font-bold">
+                    Sessão de Breakthrough de Mindset
+                  </h3>
+                  <p className="font-manrope text-text-secondary leading-relaxed">
+                    Um encontro exclusivo para você fortalecer sua mentalidade, identificando o que está te paralisando e desbloqueando seu potencial máximo.
+                  </p>
+                </div>
+              </ScrollReveal>
+            </div>
+
+            {/* CTA e Disclaimer */}
+            <ScrollReveal direction="up" delay={0.4}>
+              <div className="text-center">
+                <motion.a
+                  href="https://form.respondi.app/o6txpLuK"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-accent text-text-dark font-manrope font-bold text-lg px-12 py-5 rounded-lg hover:bg-accent/90 transition-all shadow-lg hover:shadow-xl mb-8"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  QUERO PREENCHER A APLICAÇÃO
+                </motion.a>
+                <p className="font-manrope text-sm text-text-secondary max-w-3xl mx-auto italic">
+                  <span className="font-semibold">Importante:</span> a aplicação não garante sua vaga, ela será analisada e, caso você seja aprovada, meu time entrará em contato via WhatsApp.
+                </p>
+              </div>
+            </ScrollReveal>
           </div>
         </section>
 

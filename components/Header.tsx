@@ -1,18 +1,28 @@
 'use client'
 
+import Image from 'next/image'
+
 export default function Header() {
   const navItems = [
     { label: 'Início', href: '#inicio' },
     { label: 'Sobre', href: '#sobre' },
     { label: 'Consultoria', href: '#consultoria' },
+    { label: 'Programa ORDEM', href: '#ordem' },
     { label: 'Contato', href: '#contato' },
   ]
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background shadow-md">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="#inicio" className="font-playfair text-2xl font-bold text-text-dark hover:text-accent transition-colors">
-          Leila Pellegrini
+        <a href="#inicio" className="flex items-center hover:opacity-80 transition-opacity">
+          <Image
+            src="/logo_lei.png"
+            alt="Leila Pellegrini"
+            width={150}
+            height={50}
+            className="object-contain"
+            priority
+          />
         </a>
 
         <ul className="hidden md:flex items-center space-x-8">
