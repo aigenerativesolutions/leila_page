@@ -72,7 +72,21 @@ export default function Home() {
               </h2>
             </ScrollReveal>
 
-            <div className="grid md:grid-cols-2 gap-12">
+            {/* Imagen central en mobile/tablet */}
+            <ScrollReveal direction="up" delay={0.1}>
+              <div className="flex justify-center mb-12 md:hidden">
+                <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-xl">
+                  <Image
+                    src="/IMG-20251116-WA0040.jpg"
+                    alt="Leila Pedroso"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </ScrollReveal>
+
+            <div className="grid md:grid-cols-3 gap-8 items-start">
               {/* Dores */}
               <ScrollReveal direction="left">
                 <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
@@ -95,6 +109,20 @@ export default function Home() {
                       <span>...seu faturamento não é satisfatório?</span>
                     </li>
                   </ul>
+                </div>
+              </ScrollReveal>
+
+              {/* Imagen central - solo en desktop */}
+              <ScrollReveal direction="up" delay={0.1}>
+                <div className="hidden md:flex justify-center items-center">
+                  <div className="relative w-full h-96 rounded-lg overflow-hidden shadow-2xl">
+                    <Image
+                      src="/IMG-20251116-WA0040.jpg"
+                      alt="Leila Pedroso"
+                      fill
+                      className="object-cover object-center"
+                    />
+                  </div>
                 </div>
               </ScrollReveal>
 
@@ -249,6 +277,21 @@ export default function Home() {
                 <p className="font-manrope text-lg md:text-xl text-text-dark max-w-4xl mx-auto leading-relaxed">
                   Eu, Leila Pedroso, vou trabalhar pessoalmente na construção do seu posicionamento, aumentando a sua percepção de valor e fazer do seu nome reconhecido e bem pago!
                 </p>
+              </div>
+            </ScrollReveal>
+
+            {/* Imagen de Leila */}
+            <ScrollReveal direction="up" delay={0.2}>
+              <div className="flex justify-center mb-16">
+                <div className="relative w-full max-w-md">
+                  <Image
+                    src="/leila_hotmart.webp"
+                    alt="Leila Pedroso - Programa ORDEM"
+                    width={1080}
+                    height={1080}
+                    className="rounded-lg shadow-2xl"
+                  />
+                </div>
               </div>
             </ScrollReveal>
 
