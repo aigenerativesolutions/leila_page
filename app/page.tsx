@@ -77,7 +77,7 @@ export default function Home() {
               <div className="flex justify-center mb-12 md:hidden">
                 <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-xl">
                   <Image
-                    src="/IMG-20251116-WA0040.jpg"
+                    src="/IMG-20251116-WA0032.jpg"
                     alt="Leila Pedroso"
                     fill
                     className="object-cover"
@@ -117,7 +117,7 @@ export default function Home() {
                 <div className="hidden md:flex justify-center items-center">
                   <div className="relative w-full h-96 rounded-lg overflow-hidden shadow-2xl">
                     <Image
-                      src="/IMG-20251116-WA0040.jpg"
+                      src="/IMG-20251116-WA0032.jpg"
                       alt="Leila Pedroso"
                       fill
                       className="object-cover object-center"
